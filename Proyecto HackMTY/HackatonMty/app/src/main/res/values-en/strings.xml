@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_username">Clave de elector</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="button_login">Iniciar sesion</string>
+    <string name="nc">¿No tienes una cuenta?</string>
+    <string name="cc">, Crea una aquí</string>
+    <string name="title_activity_ejemplo">EjemploActivity</string>
+    <string name="hint_usernamec">Nombre de usuario</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_cpassword">Confirmar contraseña</string>
+    <string name="createAccount">Registrarse</string>
+    <string name="title_activity_example">ExampleActivity</string>
+    <string name="hint_password2">Contraseña</string>
+
+    <string name="toolbarTitle_CreateAccount">Crear cuenta</string>
+
+    <string name="Text_Home">Inicio</string>
+    <string name="Text_Files">Doc.</string>
+    <string name="Text_Appointment">Citas</string>
+    <string name="Text_Prescription">Recetas</string>
+    <string name="Text_Profile">Perfil</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment buy</string>
+    <string name="hint_symptom">Symptom</string>
+    <string name="hint_diagnosis">Diagnosis</string>
+    <string name="hint_weight">Weight</string>
+    <string name="hint_height">Height</string>
+    <string name="hint_observations">Observation</string>
+    <string name="hint_treatments">Treatments</string>
+    <string name="NameFile">File name</string>
+    <string name="Add">Add</string>
+    <string name="NameCita">Name</string>
+    <string name="Date">Date</string>
+    <string name="Time">Hour</string>
+    <string name="hint_allergy">Allergy</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_ap">Last name</string>
+    <string name="hint_am">Last name</string>
+    <string name="hint_edad">Old</string>
+    <string name="hint_direccion">Address</string>
+    <string name="hint_sangre">Blood</string>
+    <string name="hint_dependencia">Dependence</string>
+    <string name="Delete">Cerrar Sesion</string>
+
+
+    <string name="LoginPreferences">LoginPreferences</string>
+    <string name="user_incorrect">User no exist</string>
+    <string name="Refresh">Refresh</string>
+
+    <string name="app_name">ProyectoHackMty</string>
+    <string name="title_activity_referencia">ReferenceActivity</string>
+
+</resources>

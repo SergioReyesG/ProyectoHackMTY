@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "678669707773",
+    "firebase_url": "https://morenapruebas.firebaseio.com",
+    "project_id": "morenapruebas",
+    "storage_bucket": "morenapruebas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678669707773:android:48eeba37e8127e3a",
+        "android_client_info": {
+          "package_name": "com.edgar_avc.morena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678669707773-p9opl84lc32u6mo0v9ghf06aavqb151v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBunHOVPU-doAEYgePWYawMXloafi-s2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name" translatable="false">ProyectoHackMty</string>
+    <string name="title_activity_referencia" translatable="false">ReferenciaActivity</string>
+
+    <string name="hint_username" translatable="false">Clave de elector</string>
+    <string name="hint_password" translatable="false">Contraseña</string>
+    <string name="button_login" translatable="false">Iniciar sesion</string>
+    <string name="nc" translatable="false">¿No tienes una cuenta?</string>
+    <string name="cc" translatable="false">, Crea una aquí</string>
+    <string name="title_activity_ejemplo" translatable="false">EjemploActivity</string>
+    <string name="hint_usernamec" translatable="false">Nombre de usuario</string>
+    <string name="hint_correo" translatable="false">Correo</string>
+    <string name="hint_name" translatable="false">Nombre(s)</string>
+    <string name="hint_cpassword" translatable="false">Confirmar contraseña</string>
+    <string name="createAccount" translatable="false">Registrarse</string>
+    <string name="title_activity_example" translatable="false">ExampleActivity</string>
+    <string name="hint_password2" translatable="false">Contraseña</string>
+
+    <string name="toolbarTitle_CreateAccount" translatable="false">Crear cuenta</string>
+
+
+    <string name="Text_Home" translatable="false">Inicio</string>
+    <string name="Text_Files" translatable="false">Doc.</string>
+    <string name="Text_Appointment" translatable="false">Citas</string>
+    <string name="Text_Prescription" translatable="false">Recetas</string>
+    <string name="Text_Profile" translatable="false">Perfil</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment buy</string>
+    <string name="hint_symptom" translatable="false">Sintoma</string>
+    <string name="hint_diagnosis" translatable="false">Diagnostico</string>
+    <string name="hint_weight" translatable="false">Peso</string>
+    <string name="hint_height" translatable="false">Estatura</string>
+    <string name="hint_observations" translatable="false">Observaciones</string>
+    <string name="hint_treatments" translatable="false">Tratamientos</string>
+    <string name="NameFile" translatable="false">Nombre del documento</string>
+    <string name="Add" translatable="false">Agregar</string>
+    <string name="NameCita" translatable="false">Nombre</string>
+    <string name="Date" translatable="false">Fecha</string>
+    <string name="Time" translatable="false">Hora</string>
+    <string name="hint_allergy" translatable="false">Alergia</string>
+    <string name="hint_description" translatable="false">Descripción</string>
+    <string name="hint_ap" translatable="false">Apellido paterno</string>
+    <string name="hint_am" translatable="false">Apellido materno</string>
+    <string name="hint_edad" translatable="false">Edad</string>
+    <string name="hint_direccion" translatable="false">Dirección</string>
+    <string name="hint_sangre" translatable="false">Tipo de sangre</string>
+    <string name="hint_dependencia" translatable="false">Dependencia</string>
+    <string name="Delete" translatable="false">Cerrar sesion</string>
+
+
+    <string name="LoginPreferences" translatable="false">LoginPreferences</string>
+    <string name="user_incorrect" translatable="false">El usuario no existe</string>
+    <string name="Refresh" translatable="false">Actualizar</string>
+
+
+    <string name="camp_reg1">Clave Elector: </string>
+    <string name="camp_reg2">Apellido Paterno: </string>
+    <string name="camp_reg3">Apellido Materno: </string>
+    <string name="camp_reg4">Nombre: </string>
+    <string name="camp_reg5">CURP: </string>
+    <string name="camp_reg6">OCR: </string>
+    <string name="camp_reg7">Teléfono: </string>
+    <string name="camp_reg8">Referente: </string>
+    <string name="text">Tipo de Usuario</string>
+    <string name="camp_reg9">RG</string>
+    <string name="camp_reg10">RC</string>
+    <string name="camp_reg11">S1</string>
+    <string name="camp_reg12">S2</string>
+    <string name="btn_reg">Registrar</string>
+    <string name="hint_reg1">Apellido Paterno</string>
+    <string name="hint_reg2">Apellido Materno</string>
+    <string name="hint_reg3">Nombre</string>
+    <string name="hint_reg4">Teléfono</string>
+    <string name="hint_reg5">Referente</string>
+    <string name="hint_reg6">Clave Elector</string>
+    <string name="hint_reg7">CURP</string>
+    <string name="hint_reg8">OCR</string>
+    <string name="hint_reg9">Calle</string>
+    <string name="hint_reg10">No. Exterior</string>
+    <string name="hint_reg11">No. Interior</string>
+    <string name="hint_reg12">Localidad</string>
+    <string name="hint_reg13">Municipio</string>
+    <string name="hint_reg14">Contraseña</string>
+    <string name="hint_reg15">Confirmar contraseña</string>
+    <string name="hint_reg16">Código Postal</string>
+    <string name="hint_cas1">Tipo</string>
+    <string name="hint_cas9">Tipo Casilla</string>
+    <string name="hint_cas2">Sección</string>
+    <string name="hint_cas3">Lista Nominal</string>
+    <string name="hint_cas4">Estado</string>
+    <string name="hint_cas5">Número de Municipio</string>
+    <string name="hint_cas6">Ubicación</string>
+    <string name="hint_cas7">CP</string>
+
+    <string name="btn1">Registrar usuarios</string>
+    <string name="btn2">Registrar casillas</string>
+
+    <string name="titulo_reg">REGISTRO</string>
+    <string name="btn3">Asignar casilla</string>
+    <string name="btnAsignar">Asignar usuarios</string>
+    <string name="AgregarConteo">Agregar conteo</string>
+    <string name="ActualizarInformacion">Actualizar</string>
+    <string name="btn5">Ver totales</string>
+
+
+</resources>

@@ -1,0 +1,136 @@
+
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".views.administrador.fragments.PerfilFragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <include layout="@layout/actionbar_toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingLeft="@dimen/home_margin"
+        android:paddingRight="@dimen/home_margin"
+        android:paddingTop="@dimen/home_margin"
+        android:paddingBottom="@dimen/home_margin"
+
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Text_data_profile"
+            />
+        <TextView
+            android:id="@+id/PerfilNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/Text_data"
+            android:paddingBottom="10dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido paterno:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Text_data_profile"
+            />
+        <TextView
+            android:id="@+id/PerfilClaveElector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/Text_data"
+            android:paddingBottom="10dp"
+            />
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido materno"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Text_data_profile"
+            />
+        <TextView
+            android:id="@+id/PerfilCurp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/Text_data"
+            android:paddingBottom="10dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clave de elector"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Text_data_profile"
+            />
+        <TextView
+            android:id="@+id/PerfilOcr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/Text_data"
+            android:paddingBottom="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo usuario:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Text_data_profile"
+            />
+        <TextView
+            android:id="@+id/PerfilTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/Text_data"
+            android:paddingBottom="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ButtonEndSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/home_margin"
+
+        android:layout_marginRight="@dimen/home_margin"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/Delete"
+        android:theme="@style/RaisedButtonRed" />
+
+
+</android.support.design.widget.CoordinatorLayout>

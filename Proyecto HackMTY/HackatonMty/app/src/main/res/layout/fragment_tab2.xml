@@ -1,0 +1,2009 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.administrador.fragments.Tab2Fragment">
+
+    <include layout="@layout/actionbar_toolbar"></include>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/home_margin"
+            android:paddingLeft="@dimen/home_margin"
+            android:paddingRight="@dimen/home_margin"
+            android:paddingTop="@dimen/home_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Casilla:"
+                android:textSize="@dimen/Text_Spinner" />
+
+            <Spinner
+                android:id="@+id/sp_casillasUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:textSize="@dimen/Text_Spinner" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="2dp"
+                        android:text="Presidente"
+
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="2dp"
+                        android:text="Senador" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="2dp"
+                        android:text="Gobernador" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="2dp"
+                        android:text="Dip.Fed" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:padding="2dp"
+                        android:text="Dip.Loc" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 2 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PAN"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos1"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos2"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos3"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos4"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos5"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+
+                </LinearLayout>
+
+
+                <!-- FILA 3 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PRI"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos6"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos7"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos8"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos9"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos10"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 4 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PRD"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos11"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos12"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos13"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos14"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos15"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 5 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="Verde"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos16"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos17"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos18"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos19"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos20"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 6 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PT"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos21"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos22"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos23"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos24"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos25"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 7 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="Movimiento Ciudadano"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos26"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos27"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos28"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos29"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos30"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 8 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="Nueva Alianza"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos31"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos32"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos33"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos34"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos35"
+                        android:layout_width="0dp"
+
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 9 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="Morena"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos36"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos37"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos38"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos39"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos40"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 10 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="Encuentro social"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos41"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos42"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos43"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos44"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos45"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 11 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PAN.PRD.MC"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos46"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos47"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos48"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos49"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos50"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 12 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PAN.PRD"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos51"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos52"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos53"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos54"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos55"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 13 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PAN.MC"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos56"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos57"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos58"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos59"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos60"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 14 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PRD.MC"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos61"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos62"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos63"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos64"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos65"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 15 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PRI.VERDE.NA"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos66"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos67"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos68"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos69"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos70"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 16 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PRI.VERDE"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos71"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos72"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos73"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos74"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos75"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 17 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PRI.NA"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos76"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos77"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos78"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos79"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos80"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 18 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="VERDE.NA"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos81"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos82"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos83"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos84"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos85"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 19 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PT.MORENA.PES"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos86"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos87"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos88"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos89"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos90"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 20 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PT.MORENA"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos91"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos92"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos93"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos94"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos95"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 21 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="PT.PES"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos96"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos97"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos98"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos99"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos100"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 22 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="MORENA.PES"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos101"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos102"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos103"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos104"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos105"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 22 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="INDEPENDIENTE"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos106"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos107"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos108"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos109"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos110"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 23 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="INDEPENDIENTE2"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos111"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos112"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos113"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos114"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos115"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+                <!-- FILA 23 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6">
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:focusable="false"
+                        android:inputType="none"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:text="VOTOS NULOS"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos116"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos117"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos118"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos119"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                    <EditText
+                        android:id="@+id/EditTextVotos120"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/tamCasilla"
+                        android:layout_weight="1"
+                        android:background="@drawable/cell_shape"
+                        android:inputType="number"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:textSize="@dimen/TextCasilla" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/ButtonAgregarConteo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:paddingTop="4dp"
+                android:text="@string/ActualizarInformacion"
+                android:theme="@style/RaisedButtonRed" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>

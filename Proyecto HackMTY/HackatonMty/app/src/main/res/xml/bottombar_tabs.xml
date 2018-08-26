@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Tabs>
+
+    <tab
+        id="@+id/TabHome"
+        barColorWhenSelected="Color/colorPrimary"
+        icon="@drawable/ic_home"
+    />
+
+    <tab
+        id="@+id/Tab2"
+        barColorWhenSelected="Color/colorPrimary"
+        icon="@drawable/ic_files"
+        />
+
+
+    <tab
+        id="@+id/Tab3"
+        barColorWhenSelected="Color/colorPrimary"
+        icon="@drawable/ic_profile"
+        />
+
+
+</Tabs>

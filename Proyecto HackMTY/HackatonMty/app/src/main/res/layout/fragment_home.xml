@@ -1,0 +1,78 @@
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".views.administrador.fragments.HomeFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/actionbar_toolbar"></include>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:paddingLeft="@dimen/home_margin"
+            android:paddingRight="@dimen/home_margin"
+            android:paddingTop="@dimen/home_margin"
+            >
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btn1"
+                android:theme="@style/RaisedButtonRed2"
+                android:drawableLeft="@drawable/adduser"
+                android:drawablePadding="8dp"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btn2"
+                android:theme="@style/RaisedButtonRed2"
+                android:drawableLeft="@drawable/addbox"
+                android:drawablePadding="8dp"
+                />
+
+            <Button
+                android:id="@+id/buttonAsignarUsuarios"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btnAsignar"
+                android:theme="@style/RaisedButtonRed2"
+                android:drawableLeft="@drawable/assignuser"
+                android:drawablePadding="8dp"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btn3"
+                android:theme="@style/RaisedButtonRed2"
+                android:drawableLeft="@drawable/assign"
+                android:drawablePadding="8dp"
+                />
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/btn5"
+                android:theme="@style/RaisedButtonRed2"
+                android:drawableLeft="@drawable/assign"
+                android:drawablePadding="8dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
